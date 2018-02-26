@@ -93,71 +93,61 @@
       </div>
     </div>
   </section>
-  <section class="contact">
+  <section>
    <div class="tm-section tm-section-color-white">
             <div class="uk-container uk-container-center uk-text-center ">
              <h1 class="tm-margin-large-bottom">Get In Touch</h1>
            </div>
-           <div class="uk-container ">
+           <div class="uk-container">
              <div class="uk-grid">
                 <div class="uk-width-medium-7-10 form">
          <h2 class="tm-margin-large-bottom">Get A Call About Your Project</h2>
               <p class="uk-text-large uk-text-lead">Just enter your details below with your enquiry and we will get straight back to you.</p> 
            <form class="uk-form" id="contact" name="contactForm" method="POST" role="form" action="contact.php">
-  <div class="field">
-  <label class="label">Name</label>
-  <div class="control">
-    <input class="uk-input" name="name" type="text" placeholder="Name">
+<fieldset data-uk-margin>
+<label class="label">Name</label>
+<div class="uk-form-row">
+<input class="uk-input uk-form-large" name="name" type="text" placeholder="Name">
 </div>
+<label class="label">Phone</label>
+<div class="uk-form-row">
+<input class="uk-input uk-form-large" name="phone" type="text" placeholder="Phone">
 </div>
- <div class="field">
-  <label class="label">Phone</label>
-  <div class="control">
-    <input class="uk-input" name="phone" type="text" placeholder="Phone">
- </div>
-</div>
-<div class="field">
 <label class="label">Your Budget</label>
-  <div class="control">
-    <div class="uk-select">
-      <select name="budget" form="contact">
-        <option value="Standard Package">Standard Package</option>
+<div class="uk-form-row">
+<div class="uk-select">
+    <select name="budget" form="contact">
+    <option value="Standard Package">Standard Package</option>
     <option value="&pound;1000 - &pound;10000">&pound;1000 - &pound;10000</option>
     <option value="Over &pound;10000">Over &pound;10000</option>
     <option value="Over &pound;20000">Over &pound;20000</option>
-      </select>
-    </div>
-  </div>
+    </select>
 </div>
-<div class="field">
-  <label class="label">Website Or Mobile App</label>
-    <div class="uk-select">
-      <select name="appchoice" form="contact">
-        <option value="Mobile App">Mobile App</option>
-    <option value="Website">Website</option>
-      </select>
-    </div>
 </div>
-<div class="field">
-  <label class="label">Email</label>
-  <div class="control">
-    <input class="uk-input" name="email" type="email" placeholder="Email">
- </div>
+<label class="label">Website Or Mobile App</label>
+<div class="uk-form-row">
+<div class="uk-select">
+<select name="appchoice" form="contact">
+<option value="Mobile App">Mobile App</option>
+<option value="Website">Website</option>
+</select>
 </div>
-<div class="field">
-  <label class="label">Message Or Project Details</label>
-  <div class="control">
-    <textarea class="uk-textarea" name="message" placeholder="Textarea"></textarea>
-  </div>
 </div>
-<div class="field">
-<div class="control">
+<label class="label">Email</label>
+<div class="uk-form-row">
+<input class="uk-input uk-form-large" name="email" type="email" placeholder="Email">
+</div>
+<label class="label">Message Or Project Details</label>
+<div class="uk-form-row">
+<textarea class="uk-textarea" rows="5" name="message" placeholder="Message Or Project Details"></textarea>
+</div>
+<div class="uk-form-row">
 <button class="uk-button tm-button-custom" name="submit">Send Message</button>
 </div>
-</div>
+</fieldset>
 </form>
- </div>
-<div class="column is-4 is-offset-1 contact">
+</div>
+<div class="uk-width-medium-3-10 contact">
  <h2 class="tm-margin-large-bottom">Contact Us</h2>
  <div>
 <p class="uk-text-large uk-text-lead">Contact Details</p>
@@ -176,9 +166,9 @@ UK </p></address>
 </div>
 </div> 
 </div>
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</section>
   <section>
  <div id="tm-offcanvas" class="uk-offcanvas">
         <div class="uk-offcanvas-bar">

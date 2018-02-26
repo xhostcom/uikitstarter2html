@@ -45,9 +45,36 @@ html {
 
 /* Layout
    ========================================================================== */
+/*Contact Page*/
+.form input {
+margin: 5px 0 10px 0px;
+width: 100%;
+} 
+.form textarea {
+margin: 5px 0 15px 0px;  
+width:  100%;
+}
+.form select {
+margin: 5px 0 10px 0px;
+width:  100%;
+min-height: 40px;
+}
+.form label {
+font-weight:  bold;
+}
+address p {
+line-height: 1.6em;
+}
+.contact p a {
+color: #00897B;
+}
+.contact p a:hover {
+color:#004D40;
+text-decoration:  none;
+}
 /*Pages*/
 .cover1 {
-  background: #222 url("../images/bg-1.jpg") no-repeat center center fixed;
+  background: #2a2a2a url("../images/bg-1.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 60em;
   width: 100%;
@@ -68,24 +95,26 @@ font-size: 18px;
 font-weight: 500;
 }
 .features1 .notification {
-background: #3a3d51;
+background: #009688;
 height: 60px;
 margin: 10px 0px;
 border-radius: 5px;
 }
 .features1 .notification h2 {
-color: whitesmoke;
+color: #fff;
 padding-top: 14px;
 text-transform: none;
+font-size: 22px;
 }
-.features1 img {
+.features1 .tools img {
+border:solid 1px #dadada;  
 margin-top: 10px;
 }
 .uk-text-medium {
 font-size: 16px;
 }
 .cover2 {
-  background: #222 url("../images/bg-1.jpg") no-repeat center center fixed;
+  background: #2a2a2a url("../images/bg-1.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 50em;
   width: 100%;
@@ -105,7 +134,7 @@ margin-top:  6em;
   margin-left: 4px;
 }
 .tm-section.jumbotron {
-background: #f2f2f2!important;
+background: #f8f8f8!important;
 border:  solid 1px #dadada;
 border-radius: 10px;
 margin: 0 20px 20px 20px;
