@@ -46,6 +46,9 @@ html {
 /* Layout
    ========================================================================== */
 /*Contact Page*/
+.form {
+margin-top: 10px;
+}
 .form input {
 margin: 5px 0 10px 0px;
 width: 100%;
@@ -64,6 +67,9 @@ font-weight:  bold;
 }
 address p {
 line-height: 1.6em;
+}
+.contact {
+margin-top: 10px;
 }
 .contact p a {
 color: #00897B;
