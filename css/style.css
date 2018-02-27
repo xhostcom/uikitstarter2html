@@ -45,51 +45,6 @@ html {
 
 /* Layout
    ========================================================================== */
-.rounded-circle {
-      margin: 0 auto;
-      margin-bottom: 2rem;
-      width: 6rem;
-      height: 6rem;
-      background: none;
-      border: 0.15rem solid #dfe1e5;
-      border-radius:  50px;
- }   
-/*Contact Page*/
-.form {
-margin-top: 10px;
-}
-.form label {
-padding: 5px;
-}
-.form input {
-margin: 5px 0 10px 0px;
-width: 100%;
-} 
-.form textarea {
-margin: 5px 0 15px 0px;  
-width:  100%;
-}
-.form select {
-margin: 5px 0 10px 0px;
-width:  100%;
-min-height: 40px;
-}
-.form label {
-font-weight:  bold;
-}
-address p {
-line-height: 1.6em;
-}
-.contact {
-margin-top: 10px;
-}
-.contact p a {
-color: #00897B;
-}
-.contact p a:hover {
-color:#004D40;
-text-decoration:  none;
-}
 /*Pages*/
 .uk-divider {
  display: block;
@@ -185,6 +140,42 @@ border: solid 1px #dadada;
 border-radius: 10px;
 margin: 0 20px 0px 20px;
 padding: 40px;
+}
+/*Contact Page*/
+.form {
+margin-top: 10px;
+}
+.form label {
+padding: 5px;
+}
+.form input {
+margin: 5px 0 10px 0px;
+width: 100%;
+} 
+.form textarea {
+margin: 5px 0 15px 0px;  
+width:  100%;
+}
+.form select {
+margin: 5px 0 10px 0px;
+width:  100%;
+min-height: 40px;
+}
+.form label {
+font-weight:  bold;
+}
+address p {
+line-height: 1.6em;
+}
+.contact {
+margin-top: 10px;
+}
+.contact p a {
+color: #00897B;
+}
+.contact p a:hover {
+color:#004D40;
+text-decoration:  none;
 }
 /*Desktop Nav Dropdown Div Only*/
 .uk-dropdown {
@@ -300,14 +291,14 @@ color: gray;
    */
 .tm-middle,
 .tm-section {
-padding: 50px 0;
+padding: 30px 0;
 }
 
 /* Tablet and bigger */
 @media (min-width: 768px) {
   .tm-middle,
   .tm-section {
-    padding: 50px 0;
+    padding: 30px 0;
   }
 }
 
@@ -315,7 +306,7 @@ padding: 50px 0;
 @media (min-width: 1220px) {
   .tm-middle,
   .tm-section {
-  padding: 50px 0;
+  padding: 30px 0;
   }
 }
 
