@@ -479,35 +479,19 @@ margin-bottom: -10px;
 }
 /*Change color of icons*/
 .tm-icon {
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   width: 100px;
   margin: -60px auto 0 auto;
+  border: 0.15rem solid #00897B;
   border-radius: 50px;
   background: #00897B;
   line-height: 100px;
-  color: #fff !important;
+  color: whitesmoke !important;
 }
-
-.tm-icon:after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -10px;
-  border: 10px solid #00897B;
-  border-right-color: transparent;
-  border-left-color: transparent;
-  border-bottom: none;
-}
-
 .tm-panel-link {
   -webkit-backface-visibility: hidden;
 }
-
 .tm-panel-link:hover .tm-icon {
   -moz-transform: translateY(5px);
   -o-transform: translateY(5px);
@@ -825,83 +809,6 @@ a.uk-navbar-toggle:focus a.uk-navbar-toggle:hover {
 .tm-navbar {
   position: relative;
 }
-/*
-   * Sidebar content
-   */
-.cm-vars {
-  padding-bottom: 20px;
-  font-size: 12px;
-}
-
-.cm-form-title .more-link:after {
-  content: "(more)";
-  font-size: 12px;
-  text-transform: none;
-}
-
-.show-more .cm-form-title .more-link:after {
-  content: "(hide)";
-}
-
-/*
-   * Variables form
-   */
-.cm-form fieldset + fieldset {
-  margin-top: 25px;
-}
-
-.cm-form-title {
-  font-size: 16px !important;
-  line-height: 22px !important;
-  text-transform: capitalize !important;
-}
-
-.cm-form .uk-form-row + .uk-form-row {
-  margin-top: 5px;
-}
-
-.cm-form .uk-form-label {
-  float: left;
-  line-height: 25px;
-  /* Text truncate */
-  max-width: 180px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-transform: capitalize;
-  white-space: nowrap;
-}
-
-.cm-form .uk-form-controls {
-  float: right;
-}
-
-.cm-form select {
-  width: 60px;
-  border: 0;
-  box-shadow: none;
-}
-
-.cm-form.uk-form input {
-  width: 60px;
-  border: 0;
-  box-shadow: none;
-  text-align: right;
-}
-
-.cm-form select:focus,
-.cm-form.uk-form input:focus {
-  background: none;
-}
-
-.cm-form :-ms-input-placeholder {
-  color: #ddd !important;
-}
-
-.cm-form ::-moz-placeholder,
-.cm-form ::-webkit-input-placeholder {
-  color: #ddd;
-}
-
 /*
    * Advanced mode
    */
