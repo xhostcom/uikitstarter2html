@@ -59,11 +59,11 @@ html {
   height: 60em;
   width: 100%;
 }
-.cover1 .tm-section h1 {
+.cover1 .tm-section1 h1 {
 text-transform: uppercase;
 color: #fff!important;
 }
-.cover1 .tm-section p {
+.cover1 .tm-section1 p {
 color: rgba(255,255,255,0.9);
 }
 .cover1 .intro {
@@ -109,11 +109,11 @@ padding: 0px 20px 0px 20px;
   height: 50em;
   width: 100%;
 }
-.cover2 .tm-section h1 {
+.cover2 .tm-section1 h1 {
 text-transform: uppercase;
 color: #fff!important;
 }
-.cover2 .tm-section p {
+.cover2 .tm-section1 p {
 color: rgba(255,255,255,0.9);
 }
 .cover2 .intro {
@@ -291,14 +291,14 @@ color: gray;
    */
 .tm-middle,
 .tm-section {
-padding: 30px 0;
+padding: 40px 0;
 }
 
 /* Tablet and bigger */
 @media (min-width: 768px) {
   .tm-middle,
   .tm-section {
-    padding: 30px 0;
+    padding: 40px 0;
   }
 }
 
@@ -306,7 +306,24 @@ padding: 30px 0;
 @media (min-width: 1220px) {
   .tm-middle,
   .tm-section {
-  padding: 30px 0;
+  padding: 40px 0;
+  }
+}
+.tm-section1 {
+padding: 80px 0;
+}
+
+/* Tablet and bigger */
+@media (min-width: 768px) {
+  .tm-section1 {
+    padding: 80px 0;
+  }
+}
+
+/* Large screen and bigger */
+@media (min-width: 1220px) {
+  .tm-section1 {
+  padding: 80px 0;
   }
 }
 
@@ -335,10 +352,6 @@ padding: 30px 0;
 /*
    * Sections
    */
-.tm-section .uk-heading-large {
-  margin-bottom: 20px;
-}
-
 .tm-section .uk-text-large {
   margin-bottom: 60px;
   color: rgba(0,0,0,0.8);
