@@ -96,6 +96,13 @@ color: rgba(255,255,255,0.9);
 .cover1 .intro {
 margin-top: 6em;  
 }
+.cover1 .intro h1,
+.cover1 .intro p {
+padding:  20px; 
+}
+.cover1 .introimg {
+margin-top: 4.5em;  
+}
 .features1 .tm-section h2 {
 text-transform: uppercase;
 font-size: 18px;
@@ -138,6 +145,10 @@ color: rgba(255,255,255,0.9);
 }
 .cover2 .intro {
 margin-top:  6em;	
+}
+.cover2 .intro p,
+.cover1 .intro h1 {
+padding:  20px;
 }
 .uk-icon-chevron-down {
   font-size: 10px;
