@@ -310,20 +310,20 @@ padding: 40px 0;
   }
 }
 .tm-section1 {
-padding: 80px 0;
+padding: 70px 0;
 }
 
 /* Tablet and bigger */
 @media (min-width: 768px) {
   .tm-section1 {
-    padding: 80px 0;
+    padding: 70px 0;
   }
 }
 
 /* Large screen and bigger */
 @media (min-width: 1220px) {
   .tm-section1 {
-  padding: 80px 0;
+  padding: 70px 0;
   }
 }
 
