@@ -103,6 +103,9 @@ font-size: 22px;
 border:solid 1px #dadada;  
 margin-top: 10px;
 }
+.features1 .clients img {
+border:solid 1px #dadada; 
+}
 .uk-text-medium {
 font-size: 16px;
 }
