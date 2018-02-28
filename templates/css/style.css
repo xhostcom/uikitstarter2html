@@ -53,9 +53,6 @@ html {
   background-color: #dfe1e5;
   margin: 2rem auto;
 }
-.uk-container.top {
-margin-top: 50px;
-}
 .cover1 {
   background: #2a2a2a url("../images/bg-1.jpg") no-repeat center center fixed;
   background-size: cover;
