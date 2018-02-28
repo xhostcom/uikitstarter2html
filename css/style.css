@@ -109,7 +109,7 @@ font-size: 16px;
 .cover2 {
   background: #2a2a2a url("../images/bg-1.jpg") no-repeat center center fixed;
   background-size: cover;
-  height: 50em;
+  height: 45em;
   width: 100%;
 }
 .cover2 .tm-section1 h1 {
