@@ -131,17 +131,10 @@ padding:  20px;
   margin-left: 4px;
 }
 .tm-section.jumbotron {
-background: #f8f8f8!important;
+background: #fafafa;
 border:  solid 1px #dadada;
 border-radius: 10px;
 margin: 0 20px 20px 20px;
-padding: 40px;
-}
-.jumbotron {
-background: #f8f8f8!important;
-border: solid 1px #dadada;
-border-radius: 10px;
-margin: 0 20px 0px 20px;
 padding: 40px;
 }
 /*Contact Page*/
